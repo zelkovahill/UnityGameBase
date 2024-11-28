@@ -1,0 +1,23 @@
+# User-specific files
+[Dd]esigner.cs
+[Dd]esigner.plist
+.idea/
+.vscode/
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Aa]ssets/AssetStoreTools*
+[Ll]ogs/
+
+# Builds
+Build/
+Builds/
+
+# User-specific build settings
+*.userprefs
+
+# Unity generated meta files
+*.pidb
+*.user
+*.swp
