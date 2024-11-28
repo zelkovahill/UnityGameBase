@@ -66,10 +66,14 @@
   <ItemGroup>
     <Compile Include="Assets/02_Scripts/Interactable/ShopInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/FloatingTextManager.cs" />
+    <Compile Include="Assets/02_Scripts/Tank/MonsterController.cs" />
+    <Compile Include="Assets/02_Scripts/Tank/PlayerController.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/InteractionManager.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/NPCInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/PlayerMoveController.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/IInteractable.cs" />
+    <Compile Include="Assets/02_Scripts/Tank/ProjectileController.cs" />
+    <Compile Include="Assets/02_Scripts/Tank/ProjectileMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
