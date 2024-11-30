@@ -214,7 +214,7 @@ public class Exercise01 : MonoBehaviour
   - 힙에 있는 값 형식 데이터를 값 형식 변수에 할당하는 기능
   - `object` 형식의 데이터를 값 형식의 객체에 할당하면 `object` 형식은 언박싱을 시도해서 힙에 참조하고 있는 데이터를 복사하여 값 형식 객체에 저장
   - `object value = 31;`
-  - int valueInt = (int)value;
+  - `int valueInt = (int)value;`
  
 <br>
 
