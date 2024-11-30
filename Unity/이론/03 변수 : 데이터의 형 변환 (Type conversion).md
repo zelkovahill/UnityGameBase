@@ -91,9 +91,14 @@
     - `Parse()`는 형 변환에 실패하면 Console View에 에러를 출력 (게임이 진행중일 땐 알 수 없음)
     - `TryParse()`는 형 변환에 성공했는지 여부를 논리 형으로 알려준다 (결과에 따라 설정 가능)
       - `형 변환 성공 여부 = int.TryParse(문자열 데이터, out 저장할 변수);`
-      - `int intValue;` // 성공 : `isConversion = true`, `intValue = 33;`
-      - `bool isConversion = int.TryParse("33",out intValue);`  // 실패 : `isConversion = false`, `intValue = 0;`
-     
+      - ``` cs
+        int intValue;
+        bool isConversion = int.TryParse("33",out intValue);
+
+        // 성공 : isConversion = true`, `intValue = 33;
+        // 실패 : isConversion = false`, `intValue = 0;
+        ```
+
 <br>
 
 - **`Parse()`, `TryParse()` 메소드로 변환할 수 있는 숫자 데이터 타입 (정수, 실수)**
