@@ -95,8 +95,8 @@
         int intValue;
         bool isConversion = int.TryParse("33",out intValue);
 
-        // 성공 : isConversion = true`, `intValue = 33;
-        // 실패 : isConversion = false`, `intValue = 0;
+        // 성공 : isConversion = true, intValue = 33;
+        // 실패 : isConversion = false, intValue = 0;
         ```
 
 <br>
