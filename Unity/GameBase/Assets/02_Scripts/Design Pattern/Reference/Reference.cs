@@ -94,6 +94,9 @@ namespace DesignPattern.Reference
 
         }
 
+        /// <summary>
+        /// 배열 형태의 객체들을 일괄 반환
+        /// </summary>
         public static void Release<T>(T[] items) where T : class, IReference, new()
         {
             Type type = typeof(T);
