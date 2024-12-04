@@ -38,6 +38,7 @@ enum PlayerState {Idle, Move, Attack, Defense, Die}
 <br>
 
 #### 열거 형식의 정의
+
 ``` cs
 enum 열거형식명 : 기반자료형 {상수1, 상수2, 상수3, .. }
 enum PlayerState : int {Idle, Move, Attack, Defense, }
@@ -52,6 +53,7 @@ enum PlayerState {Idle, Move, Attack, Defence}
 <br>
 
 #### 열거형 내부 상수에 저장되는 값
+
 ``` cs
 enum PlayerState {Idle, Move, Attack, Defense, }
 ```
@@ -72,6 +74,7 @@ enum 열거형식명 {상수1 = 값1, 상수2 = 값2, 상수3 = 값3, .. }
 - 입력이 없으면 앞의 숫자 +1로 자동 저장
 
 <br>
+
 ``` cs
 enum PlayerState {Idle = 0, Move, Attack = 10, Defense, }
 ```
