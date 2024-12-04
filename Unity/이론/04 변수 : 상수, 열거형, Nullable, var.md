@@ -148,4 +148,4 @@ var valueString = "와 편리하네요";
 <br>
 
 #### 참고자료
-- (유튜브 고박사의 유니티 노트[Unity C#] #04 변수 : 상수, 열거형, Nullable, var)[https://www.youtube.com/watch?v=O3L2GMcQn1U&list=PLC2Tit6NyVicT5cCqILMWXpXVEoM9ufyH&index=4]
+- [유튜브 고박사의 유니티 노트[Unity C#] #04 변수 : 상수, 열거형, Nullable, var](https://www.youtube.com/watch?v=O3L2GMcQn1U&list=PLC2Tit6NyVicT5cCqILMWXpXVEoM9ufyH&index=4)
