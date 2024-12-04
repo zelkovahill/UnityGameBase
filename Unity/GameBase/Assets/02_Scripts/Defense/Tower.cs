@@ -61,9 +61,9 @@ namespace Defense
                 {
                     enemiesInRange.Add(col.GetComponent<EnemyController>()); // EnemyConroller를 받아와서 List에 넣는다.
                 }
-            }
 
-            enemiesUpdate = true;
+                enemiesUpdate = true;
+            }
         }
 
     }
