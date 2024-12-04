@@ -54,14 +54,13 @@ namespace Defense
                                                         isEnemy); // 자신의 위치 , 범위 , 레이어
 
                 enemiesInRange.Clear(); // List에 있는 것 초기화
-            }
 
 
-
-            // colliderInRange 배열에서
-            foreach (Collider col in colliderInRange)
-            {
-                enemiesInRange.Add(col.GetComponent<EnemyController>()); // EnemyConroller를 받아와서 List에 넣는다.
+                // colliderInRange 배열에서
+                foreach (Collider col in colliderInRange)
+                {
+                    enemiesInRange.Add(col.GetComponent<EnemyController>()); // EnemyConroller를 받아와서 List에 넣는다.
+                }
             }
 
             enemiesUpdate = true;

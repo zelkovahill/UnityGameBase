@@ -51,8 +51,8 @@ namespace Defense
                 transform.LookAt(thePath.points[currentPoint]);  // 지금 위치 커서값을 향해서 본다.
 
                 transform.position = Vector3.MoveTowards(transform.position,
-                thePath.points[currentPoint].position,
-                moveSpeed * Time.deltaTime * speedMod);
+                                                        thePath.points[currentPoint].position,
+                                                        moveSpeed * Time.deltaTime * speedMod);
 
                 // 나와 패스 포인트 위치의 거리를 계산해서 0.01 이하일 경우 도착
                 if (Vector3.Distance(transform.position, thePath.points[currentPoint].position) < 0.01f)
