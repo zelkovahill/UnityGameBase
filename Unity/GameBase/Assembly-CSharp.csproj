@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/ISingleton.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/SimpleMover.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/ShopInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/FloatingTextManager.cs" />
     <Compile Include="Assets/02_Scripts/Defense/EnemyHealthConroller.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets/02_Scripts/Interactable/PlayerMoveController.cs" />
     <Compile Include="Assets/02_Scripts/Defense/Projectile.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/State Machine/StateMachine.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/MonsterSpawner.cs" />
     <Compile Include="Assets/02_Scripts/Defense/EnemyController.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/IInteractable.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileController.cs" />
