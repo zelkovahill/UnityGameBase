@@ -71,11 +71,13 @@
     <Compile Include="Assets/02_Scripts/Tutorial/VirtualJoystick.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlatformMover.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/ShopInteraction.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Sort.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/FloatingTextManager.cs" />
     <Compile Include="Assets/02_Scripts/Defense/EnemyHealthConroller.cs" />
     <Compile Include="Assets/02_Scripts/Defense/ProjectileTower.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/Singleton.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Reference/Reference.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/LinkedList.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Reference/IReference.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/SingletonInstance.cs" />
     <Compile Include="Assets/02_Scripts/Defense/Tower.cs" />
