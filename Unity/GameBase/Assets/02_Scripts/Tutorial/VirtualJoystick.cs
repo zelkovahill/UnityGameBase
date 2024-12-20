@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -30,7 +29,7 @@ public class VirtualJoystick : MonoBehaviour, IDragHandler, IEndDragHandler
         _handle.anchoredPosition = Vector3.ClampMagnitude(_handle.anchoredPosition, clamedPosition.magnitude);
     }
 
-    // 드래그 입력이 끝나면 우치를 초기화 시킨다.
+    // 드래그 입력이 끝나면 위치를 초기화 시킨다.
     public void OnEndDrag(PointerEventData eventData)
     {
         _handle.anchoredPosition = Vector3.zero;
