@@ -68,6 +68,7 @@
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/ISingleton.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerMover.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/SimpleMover.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/VirtualJoystick.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/ShopInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/FloatingTextManager.cs" />
     <Compile Include="Assets/02_Scripts/Defense/EnemyHealthConroller.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets/02_Scripts/Interactable/IInteractable.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileController.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/SingletonDriver.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/PetMover.cs" />
     <Compile Include="Assets/02_Scripts/Defense/MonsterPath.cs" />
     <Compile Include="Assets/02_Scripts/Defense/EnemySpawner.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileMove.cs" />
