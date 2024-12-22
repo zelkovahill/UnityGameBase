@@ -96,6 +96,7 @@
     <Compile Include="Assets/02_Scripts/Tutorial/MonsterSpawner.cs" />
     <Compile Include="Assets/02_Scripts/Defense/EnemyController.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/IInteractable.cs" />
+    <Compile Include="Assets/02_Scripts/Shader/MeshTrail.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileController.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/SingletonDriver.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PetMover.cs" />
