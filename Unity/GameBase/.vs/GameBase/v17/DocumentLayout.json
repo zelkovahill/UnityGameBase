@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WD\\Desktop\\Archive\\Unity\\GameBase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB21CF6-E74F-DF4E-BE71-A277D6745CD7}|Assembly-CSharp.csproj|c:\\users\\wd\\desktop\\archive\\unity\\gamebase\\assets\\02_scripts\\third\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB21CF6-E74F-DF4E-BE71-A277D6745CD7}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\third\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB21CF6-E74F-DF4E-BE71-A277D6745CD7}|Assembly-CSharp.csproj|c:\\users\\wd\\desktop\\archive\\unity\\gamebase\\assets\\02_scripts\\third\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB21CF6-E74F-DF4E-BE71-A277D6745CD7}|Assembly-CSharp.csproj|solutionrelative:assets\\02_scripts\\third\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInput.cs",
+              "DocumentMoniker": "C:\\Users\\WD\\Desktop\\Archive\\Unity\\GameBase\\Assets\\02_Scripts\\Third\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\Third\\PlayerInput.cs",
+              "ToolTip": "C:\\Users\\WD\\Desktop\\Archive\\Unity\\GameBase\\Assets\\02_Scripts\\Third\\PlayerInput.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\Third\\PlayerInput.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T08:24:43.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThirdPersonController.cs",
+              "DocumentMoniker": "C:\\Users\\WD\\Desktop\\Archive\\Unity\\GameBase\\Assets\\02_Scripts\\Third\\ThirdPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\02_Scripts\\Third\\ThirdPersonController.cs",
+              "ToolTip": "C:\\Users\\WD\\Desktop\\Archive\\Unity\\GameBase\\Assets\\02_Scripts\\Third\\ThirdPersonController.cs",
+              "RelativeToolTip": "Assets\\02_Scripts\\Third\\ThirdPersonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T08:17:13.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
