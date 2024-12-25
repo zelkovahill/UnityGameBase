@@ -103,7 +103,7 @@
                     "id": "8cd77cd9-c0ab-4155-a1dd-e24b15e94df2",
                     "path": "<Pointer>/delta",
                     "interactions": "",
-                    "processors": "InvertVector2(invertX=false),ScaleVector2(x=0.05,y=0.05)",
+                    "processors": "InvertVector2(invertX=false),ScaleVector2(x=30,y=30)",
                     "groups": "",
                     "action": "Look",
                     "isComposite": false,
