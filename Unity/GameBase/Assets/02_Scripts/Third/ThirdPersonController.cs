@@ -152,11 +152,9 @@ public class ThirdPersonController : MonoBehaviour
     {
         _hasAnimator = TryGetComponent(out _animator);
 
-
         JumpAndGravity();
         GroundedCheck();
         Move();
-
     }
 
     private void LateUpdate()

@@ -8,6 +8,7 @@ TagManager:
   - Monster
   - Enemy
   - Ground
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
