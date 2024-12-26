@@ -71,7 +71,9 @@
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/Singleton.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Reference/IReference.cs" />
     <Compile Include="Assets/02_Scripts/Defense/Tower.cs" />
+    <Compile Include="Assets/02_Scripts/Graphic/ProceduralModelingBase.cs" />
     <Compile Include="Assets/02_Scripts/Defense/SlowDownTower.cs" />
+    <Compile Include="Assets/02_Scripts/Graphic/Quad.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/NPCInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Third/Compass/Compass.cs" />
     <Compile Include="Assets/02_Scripts/Defense/Projectile.cs" />
