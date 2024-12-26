@@ -86,6 +86,7 @@
     <Compile Include="Assets/02_Scripts/Defense/EnemySpawner.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerJump.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/ISingleton.cs" />
+    <Compile Include="Assets/02_Scripts/Graphic/ParametricPlaneBase.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerMover.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/SimpleMover.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Sort.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/SingletonInstance.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Reference/ReferenceCollector.cs" />
     <Compile Include="Assets/02_Scripts/Tank/MonsterController.cs" />
+    <Compile Include="Assets/02_Scripts/Graphic/Cylinder.cs" />
     <Compile Include="Assets/02_Scripts/Tank/PlayerController.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/InteractionManager.cs" />
     <Compile Include="Assets/02_Scripts/Third/Compass/CompassElement.cs" />
