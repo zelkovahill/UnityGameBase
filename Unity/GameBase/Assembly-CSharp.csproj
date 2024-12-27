@@ -91,6 +91,7 @@
     <Compile Include="Assets/02_Scripts/Defense/MonsterPath.cs" />
     <Compile Include="Assets/02_Scripts/Defense/EnemySpawner.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Curve/CurveBase.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/SimpleQuestProgressUI.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerJump.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/ISingleton.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/ParametricPlaneBase.cs" />
@@ -999,6 +1000,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1039,8 +1044,8 @@
       <HintPath>Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
@@ -1049,6 +1054,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
@@ -1139,16 +1148,20 @@
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
