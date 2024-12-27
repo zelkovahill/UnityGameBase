@@ -17,7 +17,7 @@ public class ProjectileMove : MonoBehaviour
 
     [SerializeField]
     [Tooltip("발사체 타입")]
-    private EProjectileType projectileType = EProjectileType.Player;
+    public EProjectileType projectileType = EProjectileType.Player;
 
 
     private void FixedUpdate()

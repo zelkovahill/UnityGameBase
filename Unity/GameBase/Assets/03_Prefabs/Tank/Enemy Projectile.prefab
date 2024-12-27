@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   launchDirection: {x: 0, y: 0, z: 0}
-  projectileType: 0
+  projectileType: 1
 --- !u!54 &8309098289986205684
 Rigidbody:
   m_ObjectHideFlags: 0

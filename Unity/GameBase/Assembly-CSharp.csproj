@@ -126,6 +126,7 @@
     <Compile Include="Assets/02_Scripts/Tank/ProjectileController.cs" />
     <Compile Include="Assets/02_Scripts/Third/CharacterInput.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/IQuestCondition.cs" />
+    <Compile Include="Assets/02_Scripts/Tank/EnemyController.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileMove.cs" />
   </ItemGroup>
   <ItemGroup>
