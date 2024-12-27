@@ -65,19 +65,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/02_Scripts/Graphic/Plane.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/QuestManager.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/VirtualJoystick.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlatformMover.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/ShopInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Tree.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/Singleton.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/QuestEnums.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Reference/IReference.cs" />
     <Compile Include="Assets/02_Scripts/Defense/Tower.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/ProceduralModelingBase.cs" />
     <Compile Include="Assets/02_Scripts/Defense/SlowDownTower.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Quad.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/Condition/KillQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/NPCInteraction.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/Quest.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/Reward/ExperienceReward.cs" />
     <Compile Include="Assets/02_Scripts/Third/Compass/Compass.cs" />
     <Compile Include="Assets/02_Scripts/Defense/Projectile.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/Condition/CollectionQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/State Machine/StateMachine.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/MonsterSpawner.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/Singleton/SingletonDriver.cs" />
@@ -90,7 +96,9 @@
     <Compile Include="Assets/02_Scripts/Graphic/ParametricPlaneBase.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerMover.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/SimpleMover.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/Reward/ItemReward.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Sort.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/Reward/IQuestReward.cs" />
     <Compile Include="Assets/02_Scripts/Third/ThirdPersonController.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/FloatingTextManager.cs" />
     <Compile Include="Assets/02_Scripts/Shader/Dissolve.cs" />
@@ -116,6 +124,7 @@
     <Compile Include="Assets/02_Scripts/Shader/MeshTrail.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileController.cs" />
     <Compile Include="Assets/02_Scripts/Third/CharacterInput.cs" />
+    <Compile Include="Assets/02_Scripts/Quest/Condition/IQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileMove.cs" />
   </ItemGroup>
   <ItemGroup>
