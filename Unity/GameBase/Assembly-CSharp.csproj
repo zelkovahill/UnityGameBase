@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/02_Scripts/Graphic/Plane.cs" />
+    <Compile Include="Assets/02_Scripts/Tank/GenController.cs" />
     <Compile Include="Assets/02_Scripts/Quest/QuestManager.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/VirtualJoystick.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlatformMover.cs" />
