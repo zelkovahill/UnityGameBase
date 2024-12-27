@@ -31,7 +31,7 @@ public class EnemyController : MonoBehaviour
     {
         if (player != null)
         {
-            // 플레이어의 위치 값 입력F
+            // 플레이어의 위치 값 입력
             if (Vector3.Distance(player.position, transform.position) > 5.0f)
             {
                 // 적 캐릭터 이동
@@ -41,6 +41,7 @@ public class EnemyController : MonoBehaviour
 
             // 포탑 회전
             Vector3 targetDirection = (player.position - EnemyPivot.transform.position).normalized;
+            targetDirection.y = 0;
             Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
             EnemyPivot.transform.rotation = Quaternion.Lerp(EnemyPivot.transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
