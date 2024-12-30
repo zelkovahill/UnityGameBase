@@ -68,6 +68,7 @@
     <Compile Include="Assets/02_Scripts/Tank/GenController.cs" />
     <Compile Include="Assets/02_Scripts/Quest/QuestManager.cs" />
     <Compile Include="Assets/02_Scripts/MergeSystem/GameController.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/School/ParabolicTrajectory.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/VirtualJoystick.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlatformMover.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/ShopInteraction.cs" />
