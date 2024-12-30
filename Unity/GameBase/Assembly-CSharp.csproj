@@ -125,6 +125,7 @@
     <Compile Include="Assets/02_Scripts/Tutorial/School/SwipeSystem.cs" />
     <Compile Include="Assets/02_Scripts/MergeSystem/Item.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Curve/FrenetFrame.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/PairTest.cs" />
     <Compile Include="Assets/02_Scripts/Third/Compass/CompassElement.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/State Machine/IStateNode.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/PlayerMoveController.cs" />
@@ -133,6 +134,7 @@
     <Compile Include="Assets/02_Scripts/Interactable/IInteractable.cs" />
     <Compile Include="Assets/02_Scripts/Shader/MeshTrail.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileController.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Pair.cs" />
     <Compile Include="Assets/02_Scripts/Third/CharacterInput.cs" />
     <Compile Include="Assets/02_Scripts/Json/JsonTest.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/IQuestCondition.cs" />
@@ -501,12 +503,12 @@
       <HintPath>Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Assets/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1013,10 +1015,6 @@
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
       <Private>False</Private>
@@ -1189,6 +1187,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1197,16 +1199,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Cinemachine">
       <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
