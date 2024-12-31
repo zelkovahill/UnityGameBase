@@ -131,6 +131,7 @@
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/PairTest.cs" />
     <Compile Include="Assets/02_Scripts/Third/Compass/CompassElement.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/State Machine/IStateNode.cs" />
+    <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/DoublyLinkedListTest.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/PlayerMoveController.cs" />
     <Compile Include="Assets/02_Scripts/MergeSystem/ItemInfo.cs" />
     <Compile Include="Assets/02_Scripts/Defense/EnemyController.cs" />
