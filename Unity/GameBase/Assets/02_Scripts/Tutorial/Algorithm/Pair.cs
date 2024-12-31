@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Pairrrrrr<T1, T2>
 {
-    public T1 First { get; set; }
-    public T2 Second { get; set; }
+    public T1 First;
+    public T2 Second;
 
     // public Pairrrrrr(T1 first, T2 second)
     // {

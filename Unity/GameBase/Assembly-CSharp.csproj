@@ -67,6 +67,7 @@
     <Compile Include="Assets/02_Scripts/Graphic/Plane.cs" />
     <Compile Include="Assets/02_Scripts/Tank/GenController.cs" />
     <Compile Include="Assets/02_Scripts/Quest/QuestManager.cs" />
+    <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/SinglyLinkedList.cs" />
     <Compile Include="Assets/02_Scripts/MergeSystem/GameController.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/ParabolicTrajectory.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/VirtualJoystick.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets/02_Scripts/Quest/Quest.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Reward/ExperienceReward.cs" />
     <Compile Include="Assets/02_Scripts/Third/Compass/Compass.cs" />
+    <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/DoublyLinkedList.cs" />
     <Compile Include="Assets/02_Scripts/Defense/Projectile.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/CollectionQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Design Pattern/State Machine/StateMachine.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Assets/02_Scripts/Quest/Reward/ItemReward.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Sort.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Reward/IQuestReward.cs" />
+    <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/LinkedListTest.cs" />
     <Compile Include="Assets/02_Scripts/Third/ThirdPersonController.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/FloatingTextManager.cs" />
     <Compile Include="Assets/02_Scripts/Shader/Dissolve.cs" />
@@ -135,6 +138,7 @@
     <Compile Include="Assets/02_Scripts/Shader/MeshTrail.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileController.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Pair.cs" />
+    <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/ItemNotFoundException.cs" />
     <Compile Include="Assets/02_Scripts/Third/CharacterInput.cs" />
     <Compile Include="Assets/02_Scripts/Json/JsonTest.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/IQuestCondition.cs" />
