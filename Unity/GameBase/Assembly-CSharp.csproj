@@ -81,8 +81,9 @@
     <Compile Include="Assets/02_Scripts/Defense/Tower.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/ProceduralModelingBase.cs" />
     <Compile Include="Assets/02_Scripts/Defense/SlowDownTower.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/SimplePlayerController.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Quad.cs" />
-    <Compile Include="Assets/02_Scripts/Tutorial/School/CustomerFSM.cs" />
+    <Compile Include="Assets/02_Scripts/Tutorial/School/Customer/CustomerFSM.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/KillQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/NPCInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Quest.cs" />
