@@ -95,6 +95,7 @@
     <Compile Include="Assets/02_Scripts/Interactable/NPCInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Quest.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Reward/ExperienceReward.cs" />
+    <Compile Include="Assets/02_Scripts/DesignPattern/MVP/HealthPresenter.cs" />
     <Compile Include="Assets/02_Scripts/Third/Compass/Compass.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/IdleState.cs" />
     <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/DoublyLinkedList.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Assets/02_Scripts/Defense/Projectile.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/CollectionQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/MonsterSpawner.cs" />
+    <Compile Include="Assets/02_Scripts/DesignPattern/MVP/Health.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/SurvivalStats.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PetMover.cs" />
     <Compile Include="Assets/02_Scripts/Defense/MonsterPath.cs" />
