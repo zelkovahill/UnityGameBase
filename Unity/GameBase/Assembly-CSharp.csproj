@@ -72,6 +72,7 @@
     <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/SinglyLinkedList.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/PlayerState.cs" />
     <Compile Include="Assets/02_Scripts/MergeSystem/GameController.cs" />
+    <Compile Include="Assets/02_Scripts/DesignPattern/Observer/Observer.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/ParabolicTrajectory.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/VirtualJoystick.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlatformMover.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Sort.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Reward/IQuestReward.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/Singleton/SingletonDriver.cs" />
+    <Compile Include="Assets/02_Scripts/DesignPattern/Observer/Subject.cs" />
     <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/LinkedListTest.cs" />
     <Compile Include="Assets/02_Scripts/Third/ThirdPersonController.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/FloatingTextManager.cs" />
