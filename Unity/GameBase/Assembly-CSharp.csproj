@@ -59,7 +59,7 @@
     <UnityVersion>2022.3.44f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/changwoomin/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/woomin/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.0.5/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -85,11 +85,13 @@
     <Compile Include="Assets/02_Scripts/Tutorial/School/TweenTest.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/BuildingDetector.cs" />
     <Compile Include="Assets/02_Scripts/Quest/QuestEnums.cs" />
+    <Compile Include="Assets/02_Scripts/GameMath/Chapter03.cs" />
     <Compile Include="Assets/02_Scripts/Defense/Tower.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/ProceduralModelingBase.cs" />
     <Compile Include="Assets/02_Scripts/Defense/SlowDownTower.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/SimplePlayerController.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Quad.cs" />
+    <Compile Include="Assets/02_Scripts/GameMath/Chapter02.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Customer/CustomerFSM.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/KillQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/NPCInteraction.cs" />
@@ -121,6 +123,8 @@
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerMover.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/SimpleMover.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Reward/ItemReward.cs" />
+    <Compile Include="Assets/02_Scripts/GameMath/SceneLoader.cs" />
+    <Compile Include="Assets/02_Scripts/GameMath/Chapter06.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Sort.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Reward/IQuestReward.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/Singleton/SingletonDriver.cs" />
@@ -138,10 +142,12 @@
     <Compile Include="Assets/02_Scripts/DesignPattern/Reference/Reference.cs" />
     <Compile Include="Assets/02_Scripts/MergeSystem/Slot.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/JumpState.cs" />
+    <Compile Include="Assets/02_Scripts/GameMath/Chapter01.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Tubular.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Curve/CatmullRomCurve.cs" />
     <Compile Include="Assets/02_Scripts/Tank/MonsterController.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Cylinder.cs" />
+    <Compile Include="Assets/02_Scripts/GameMath/Chapter07.cs" />
     <Compile Include="Assets/02_Scripts/Tank/PlayerController.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/PlayerController.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/BuildingCrafter.cs" />
@@ -168,6 +174,7 @@
     <Compile Include="Assets/02_Scripts/Tutorial/School/CharacterRotation.cs" />
     <Compile Include="Assets/02_Scripts/Tank/EnemyController.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/Reference/ReferenceCollector.cs" />
+    <Compile Include="Assets/02_Scripts/GameMath/Chapter09.cs" />
     <Compile Include="Assets/02_Scripts/Tank/ProjectileMove.cs" />
   </ItemGroup>
   <ItemGroup>
