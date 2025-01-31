@@ -89,6 +89,7 @@
     <Compile Include="Assets/02_Scripts/Tutorial/VirtualJoystick.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlatformMover.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/ShopInteraction.cs" />
+    <Compile Include="Assets/02_Scripts/ECS/PlayerInputSystem.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/Tree.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/Singleton/SingletonInstance.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/PlayerAnimationManager.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="Assets/02_Scripts/Graphic/Quad.cs" />
     <Compile Include="Assets/02_Scripts/GameMath/Chapter02.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Customer/CustomerFSM.cs" />
+    <Compile Include="Assets/02_Scripts/ECS/PlayerInputAuthoring.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/KillQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/NPCInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Quest.cs" />
