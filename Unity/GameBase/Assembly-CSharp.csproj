@@ -108,8 +108,8 @@
     <Compile Include="Assets/02_Scripts/Graphic/Quad.cs" />
     <Compile Include="Assets/02_Scripts/GameMath/Chapter02.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Customer/CustomerFSM.cs" />
-    <Compile Include="Assets/02_Scripts/ECS/PlayerInputAuthoring.cs" />
     <Compile Include="Assets/02_Scripts/ECS/ThirdCharacter/PlayerAutoring.cs" />
+    <Compile Include="Assets/02_Scripts/ECS/PlayerInputAuthoring.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/KillQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/NPCInteraction.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Quest.cs" />
