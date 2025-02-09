@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using Cinemachine;
 using StarterAssets;
 using UnityEngine;
+using UnityEngine.Animations.Rigging;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -22,25 +21,60 @@ public class PlayerManager : MonoBehaviour
     [SerializeField]
     private float aimObjectDistance = 10f;
 
+    [Header("IK")]
+    [SerializeField]
+    private Rig handRig;
+
+    [SerializeField]
+    private Rig aimRig;
+
+
     private StarterAssetsInputs _starterAssetsInputs;
+    private ThirdPersonController _thirdPersonController;
+    private Animator _animator;
 
 
     private void Awake()
     {
         _starterAssetsInputs = GetComponent<StarterAssetsInputs>();
+        _thirdPersonController = GetComponent<ThirdPersonController>();
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        AimChech();
+        AimCheck();
     }
 
-    private void AimChech()
+    private void AimCheck()
     {
+        if (_starterAssetsInputs.reload)
+        {
+            _starterAssetsInputs.reload = false;
+
+            if (_thirdPersonController.isReload)
+            {
+                return;
+            }
+
+            AimControll(false);
+            SetRigWeight(0);
+            _animator.SetLayerWeight(1, 1);
+            _animator.SetTrigger("Reload");
+            _thirdPersonController.isReload = true;
+        }
+
+        if (_thirdPersonController.isReload)
+        {
+            return;
+        }
+
+
         if (_starterAssetsInputs.aim)
         {
-            aimCam.gameObject.SetActive(true);
-            aimImage.SetActive(true);
+            AimControll(true);
+
+            _animator.SetLayerWeight(1, 1);
 
             Vector3 targetPosition = Vector3.zero;
             Transform camTransform = Camera.main.transform;
@@ -62,11 +96,45 @@ public class PlayerManager : MonoBehaviour
             Vector3 aimDirection = (targetAim - transform.position).normalized;
 
             transform.forward = Vector3.Lerp(transform.forward, aimDirection, Time.deltaTime * 50f);
+
+            SetRigWeight(1);
+
+            if (_starterAssetsInputs.shoot)
+            {
+                _animator.SetBool("Shoot", true);
+            }
+            else
+            {
+                _animator.SetBool("Shoot", false);
+            }
         }
         else
         {
-            aimCam.gameObject.SetActive(false);
-            aimImage.SetActive(false);
+            AimControll(false);
+            SetRigWeight(0);
+            _animator.SetLayerWeight(1, 0);
+            _animator.SetBool("Shoot", false);
         }
+    }
+
+    private void AimControll(bool isCheck)
+    {
+        aimCam.gameObject.SetActive(isCheck);
+        aimImage.SetActive(isCheck);
+        _thirdPersonController.isAimMove = isCheck;
+    }
+
+    public void Reload()
+    {
+        // Debug.Log("Reload");
+        _thirdPersonController.isReload = false;
+        SetRigWeight(1);
+        _animator.SetLayerWeight(1, 0);
+    }
+
+    private void SetRigWeight(float weight)
+    {
+        handRig.weight = weight;
+        aimRig.weight = weight;
     }
 }
