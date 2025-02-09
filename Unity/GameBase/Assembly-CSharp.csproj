@@ -159,8 +159,10 @@
     <Compile Include="Assets/02_Scripts/ECS/DancerAuthoring.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/Algorithm/LinkedList.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/Reference/Reference.cs" />
+    <Compile Include="Assets/02_Scripts/TPS/PlayerManager.cs" />
     <Compile Include="Assets/02_Scripts/MergeSystem/Slot.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/JumpState.cs" />
+    <Compile Include="Assets/Starter Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/02_Scripts/GameMath/Chapter01.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Tubular.cs" />
     <Compile Include="Assets/02_Scripts/ECS/ThirdCharacter/PlayerComponents.cs" />
@@ -205,6 +207,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Starter Assets/Sample/Environment/Shaders/Built-in_RP/Triplanar.shader" />
     <None Include="Assets/Newtonsoft.Json.dll" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
@@ -216,6 +219,8 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/OccaSoftware/Crosshairs/Readme.txt" />
+    <None Include="Assets/Starter Assets/Sample/Environment/Shaders/Built-in_RP/ArmatureShader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
@@ -1405,6 +1410,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="URPWizard.csproj" />
+    <ProjectReference Include="Unity.StarterAssets.Editor.csproj" />
+    <ProjectReference Include="Unity.StarterAssets.csproj" />
+    <ProjectReference Include="OccaSoftware.Crosshairs.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
