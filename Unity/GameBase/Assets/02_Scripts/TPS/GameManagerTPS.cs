@@ -47,7 +47,7 @@ public class GameManagerTPS : MonoBehaviour
         bulletText.text = currentBullet + " / " + maxBullet;
     }
 
-    public void Shooting(Vector3 targetPosition)
+    public void Shooting(Vector3 targetPosition, TargetEnemy targetEnemy)
     {
         currentMaxShootDelay += Time.deltaTime;
 
@@ -58,22 +58,51 @@ public class GameManagerTPS : MonoBehaviour
 
         currentBullet--;
         currentMaxShootDelay = 0;
-
-        Instantiate(weaponFlashFX, bulletPoint);
-        Instantiate(bulletCaseFX, bulletCasePoint);
-
         Vector3 aim = (targetPosition - bulletPoint.position).normalized;
-        Instantiate(bulletPrefab, bulletPoint.position, Quaternion.LookRotation(aim, Vector3.up));
+
+
+
+
+        // Instantiate(weaponFlashFX, bulletPoint);
+        GameObject flashFX = PoolManager.instance.ActiveObject(1);
+        SetObjectActive(flashFX, bulletPoint);
+        flashFX.transform.rotation = Quaternion.LookRotation(aim, Vector3.up);
+
+        // Instantiate(bulletCaseFX, bulletCasePoint);
+        GameObject caseFX = PoolManager.instance.ActiveObject(2);
+        SetObjectActive(caseFX, bulletCasePoint);
+
+
+        // Instantiate(bulletPrefab, bulletPoint.position, Quaternion.LookRotation(aim, Vector3.up));
+        GameObject prefabToSpawn = PoolManager.instance.ActiveObject(0);
+        SetObjectActive(prefabToSpawn, bulletPoint);
+        prefabToSpawn.transform.rotation = Quaternion.LookRotation(aim, Vector3.up);
+
+
+        // Raycast을 이용하여 데미지주기 (Raycast를 쏴서 적을 맞추는 방식)
+        // if (targetEnemy != null && targetEnemy.currentHP > 0)
+        // {
+        //     targetEnemy.currentHP -= 1;
+        //     Debug.Log("Enemy HP : " + targetEnemy.currentHP);
+        // }
+
     }
 
     public void ReloadClip()
     {
-        Instantiate(weaponClipFX, weaponClipPoint);
+        // Instantiate(weaponClipFX, weaponClipPoint);
+        GameObject clipFX = PoolManager.instance.ActiveObject(3);
+        SetObjectActive(clipFX, weaponClipPoint);
         InitBullet();
     }
 
     private void InitBullet()
     {
         currentBullet = maxBullet;
+    }
+
+    private void SetObjectActive(GameObject obj, Transform targetTransform)
+    {
+        obj.transform.position = targetTransform.position;
     }
 }

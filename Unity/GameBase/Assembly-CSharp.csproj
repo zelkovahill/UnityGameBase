@@ -139,6 +139,7 @@
     <Compile Include="Assets/02_Scripts/Graphic/ParametricPlaneBase.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/Singleton/Singleton.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerMover.cs" />
+    <Compile Include="Assets/02_Scripts/TPS/TargetEnemy.cs" />
     <Compile Include="Assets/02_Scripts/TPS/BulletManager.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/SimpleMover.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Reward/ItemReward.cs" />
@@ -175,6 +176,7 @@
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/PlayerController.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/BuildingCrafter.cs" />
     <Compile Include="Assets/02_Scripts/Interactable/InteractionManager.cs" />
+    <Compile Include="Assets/02_Scripts/TPS/PoolManager.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/SwipeSystem.cs" />
     <Compile Include="Assets/02_Scripts/MergeSystem/Item.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Curve/FrenetFrame.cs" />

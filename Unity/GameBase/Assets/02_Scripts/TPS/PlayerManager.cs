@@ -31,6 +31,7 @@ public class PlayerManager : MonoBehaviour
 
     private StarterAssetsInputs _starterAssetsInputs;
     private ThirdPersonController _thirdPersonController;
+    private TargetEnemy _targetEnemy;
     private Animator _animator;
 
 
@@ -84,6 +85,8 @@ public class PlayerManager : MonoBehaviour
             {
                 targetPosition = hit.point;
                 aimObject.transform.position = hit.point;
+
+                _targetEnemy = hit.collider.gameObject.GetComponent<TargetEnemy>();
             }
             else
             {
@@ -102,7 +105,7 @@ public class PlayerManager : MonoBehaviour
             if (_starterAssetsInputs.shoot)
             {
                 _animator.SetBool("Shoot", true);
-                GameManagerTPS.instance.Shooting(targetPosition);
+                GameManagerTPS.instance.Shooting(targetPosition, _targetEnemy);
             }
             else
             {
