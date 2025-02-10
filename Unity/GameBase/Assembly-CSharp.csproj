@@ -139,6 +139,7 @@
     <Compile Include="Assets/02_Scripts/Graphic/ParametricPlaneBase.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/Singleton/Singleton.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerMover.cs" />
+    <Compile Include="Assets/02_Scripts/TPS/BulletManager.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/SimpleMover.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Reward/ItemReward.cs" />
     <Compile Include="Assets/02_Scripts/GameMath/SceneLoader.cs" />
@@ -169,6 +170,7 @@
     <Compile Include="Assets/02_Scripts/Tank/MonsterController.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Cylinder.cs" />
     <Compile Include="Assets/02_Scripts/GameMath/Chapter07.cs" />
+    <Compile Include="Assets/02_Scripts/TPS/GameManagerTPS.cs" />
     <Compile Include="Assets/02_Scripts/Tank/PlayerController.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/PlayerController.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/BuildingCrafter.cs" />
@@ -1331,10 +1333,6 @@
       <HintPath>Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Serialization">
-      <HintPath>Library/ScriptAssemblies/Unity.Serialization.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Scenes.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1343,12 +1341,16 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
+    <Reference Include="Unity.Serialization">
+      <HintPath>Library/ScriptAssemblies/Unity.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Entities.Graphics.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Entities.Graphics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">

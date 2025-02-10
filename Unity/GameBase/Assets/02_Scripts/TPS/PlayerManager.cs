@@ -102,6 +102,7 @@ public class PlayerManager : MonoBehaviour
             if (_starterAssetsInputs.shoot)
             {
                 _animator.SetBool("Shoot", true);
+                GameManagerTPS.instance.Shooting(targetPosition);
             }
             else
             {
@@ -136,5 +137,10 @@ public class PlayerManager : MonoBehaviour
     {
         handRig.weight = weight;
         aimRig.weight = weight;
+    }
+
+    public void ReloadWeaponClip()
+    {
+        GameManagerTPS.instance.ReloadClip();
     }
 }
