@@ -80,6 +80,7 @@
     <Compile Include="Assets/02_Scripts/Tank/GenController.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/States/WalkState.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/Reference/IReference.cs" />
+    <Compile Include="Assets/02_Scripts/TPS/LookUI.cs" />
     <Compile Include="Assets/02_Scripts/Quest/QuestManager.cs" />
     <Compile Include="Assets/02_Scripts/DataStructure/LinkedList/SinglyLinkedList.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/PlayerState.cs" />
@@ -107,6 +108,7 @@
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/SimplePlayerController.cs" />
     <Compile Include="Assets/02_Scripts/Graphic/Quad.cs" />
     <Compile Include="Assets/02_Scripts/GameMath/Chapter02.cs" />
+    <Compile Include="Assets/Supercyan Character Pack Zombie Sample/Scripts/ZombieCameraLogic.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Customer/CustomerFSM.cs" />
     <Compile Include="Assets/02_Scripts/ECS/ThirdCharacter/PlayerAutoring.cs" />
     <Compile Include="Assets/02_Scripts/ECS/PlayerInputAuthoring.cs" />
@@ -133,6 +135,7 @@
     <Compile Include="Assets/02_Scripts/Graphic/Curve/CurveBase.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/FloatingTextManager.cs" />
     <Compile Include="Assets/02_Scripts/Quest/SimpleQuestProgressUI.cs" />
+    <Compile Include="Assets/Supercyan Character Pack Zombie Sample/Scripts/ZombieCharacterControl.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/PlayerJump.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/Camera/BuildingType.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/State Machine/IState.cs" />
@@ -198,6 +201,7 @@
     <Compile Include="Assets/02_Scripts/Json/JsonTest.cs" />
     <Compile Include="Assets/02_Scripts/Quest/Condition/IQuestCondition.cs" />
     <Compile Include="Assets/02_Scripts/Tutorial/School/CharacterRotation.cs" />
+    <Compile Include="Assets/Supercyan Character Pack Zombie Sample/Scripts/ZombieFree.cs" />
     <Compile Include="Assets/02_Scripts/Tank/EnemyController.cs" />
     <Compile Include="Assets/02_Scripts/DesignPattern/Reference/ReferenceCollector.cs" />
     <Compile Include="Assets/02_Scripts/GameMath/Chapter09.cs" />
@@ -206,12 +210,14 @@
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/Supercyan Character Pack Zombie Sample/Shaders/Legacy/CelShader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets/Starter Assets/Sample/Environment/Shaders/Built-in_RP/Triplanar.shader" />
     <None Include="Assets/Newtonsoft.Json.dll" />
+    <None Include="Assets/Supercyan Character Pack Zombie Sample/Shaders/SupercyanShader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -223,6 +229,7 @@
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/OccaSoftware/Crosshairs/Readme.txt" />
+    <None Include="Assets/Supercyan Character Pack Zombie Sample/Shaders/SupercyanShaderLighting.cginc" />
     <None Include="Assets/Starter Assets/Sample/Environment/Shaders/Built-in_RP/ArmatureShader.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />

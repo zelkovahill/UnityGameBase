@@ -28,6 +28,13 @@ public class PlayerManager : MonoBehaviour
     [SerializeField]
     private Rig aimRig;
 
+    [Header("Weapon Sound Effect")]
+    [SerializeField]
+    private AudioClip shootngSound;
+    [SerializeField]
+    private AudioClip[] reloadSound;
+    private AudioSource weaponSound;
+
 
     private StarterAssetsInputs _starterAssetsInputs;
     private ThirdPersonController _thirdPersonController;
@@ -40,6 +47,7 @@ public class PlayerManager : MonoBehaviour
         _starterAssetsInputs = GetComponent<StarterAssetsInputs>();
         _thirdPersonController = GetComponent<ThirdPersonController>();
         _animator = GetComponent<Animator>();
+        weaponSound = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -105,7 +113,7 @@ public class PlayerManager : MonoBehaviour
             if (_starterAssetsInputs.shoot)
             {
                 _animator.SetBool("Shoot", true);
-                GameManagerTPS.instance.Shooting(targetPosition, _targetEnemy);
+                GameManagerTPS.instance.Shooting(targetPosition, _targetEnemy, weaponSound, shootngSound);
             }
             else
             {
@@ -134,6 +142,7 @@ public class PlayerManager : MonoBehaviour
         _thirdPersonController.isReload = false;
         SetRigWeight(1);
         _animator.SetLayerWeight(1, 0);
+        PlayWeaponSound(reloadSound[2]);
     }
 
     private void SetRigWeight(float weight)
@@ -145,5 +154,17 @@ public class PlayerManager : MonoBehaviour
     public void ReloadWeaponClip()
     {
         GameManagerTPS.instance.ReloadClip();
+        PlayWeaponSound(reloadSound[0]);
+    }
+
+    public void RelopadInsertClip()
+    {
+        PlayWeaponSound(reloadSound[1]);
+    }
+
+    private void PlayWeaponSound(AudioClip sound)
+    {
+        weaponSound.clip = sound;
+        weaponSound.Play();
     }
 }
